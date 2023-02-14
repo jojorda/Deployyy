@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: "http://deployyy-production-f626.up.railway.app/api/v1/",
+  baseURL: "https://deployyy-production-clear.up.railway.app/api/v1/",
 });
 
 export const setAuthToken = (token) => {
